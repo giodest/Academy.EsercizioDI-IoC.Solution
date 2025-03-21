@@ -11,7 +11,6 @@ namespace Academy.EsercizioDI_IoC.PL
             serviceCollection.AddSingleton<IInventoryService, InventoryService>();
             serviceCollection.AddSingleton<IStockChecker, SimpleStockChecker>();
             serviceCollection.AddSingleton<IPriceCalculator, StandardPriceCalculator>();
-            serviceCollection.AddScoped<Counter>();
 
             serviceCollection.AddSingleton<OrderManager>();
             var serviceProvider = serviceCollection.BuildServiceProvider();

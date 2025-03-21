@@ -6,5 +6,11 @@ using System.Threading.Tasks;
 
 namespace Academy.EsercizioDI_IoC.PL
 {
-    public class StandardPriceCalculator : IPriceCalculator { public decimal CalculatePrice(int quantity, decimal unitPrice) { return quantity * unitPrice; } }
+    public class StandardPriceCalculator : IPriceCalculator 
+    { 
+        public decimal CalculatePrice(int quantity, decimal unitPrice) 
+        { 
+            return quantity * unitPrice; 
+        } 
+    }
 }
