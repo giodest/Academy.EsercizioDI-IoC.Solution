@@ -6,5 +6,8 @@ using System.Threading.Tasks;
 
 namespace Academy.EsercizioDI_IoC.PL
 {
-    public interface IInventoryService { bool CheckAvailability(string productId, int quantity); }
+    public interface IInventoryService 
+    { 
+        bool CheckAvailability(string productId, int quantity); 
+    }
 }

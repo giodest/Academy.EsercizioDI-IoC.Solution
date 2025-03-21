@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Academy.EsercizioDI_IoC.PL
 {
-
-    public interface IPriceCalculator { decimal CalculatePrice(int quantity, decimal unitPrice); }
+    public interface IPriceCalculator 
+    { 
+        decimal CalculatePrice(int quantity, decimal unitPrice); 
+    }
 }
