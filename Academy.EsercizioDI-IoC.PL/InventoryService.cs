@@ -14,8 +14,13 @@ namespace Academy.EsercizioDI_IoC.PL
             _stockChecker = stockChecker ?? throw new ArgumentNullException(nameof(stockChecker)); 
         } 
         public bool CheckAvailability(string productId, int quantity) 
+<<<<<<< HEAD
         { 
             return _stockChecker.IsInStock(productId, quantity);
+=======
+        {
+            return _stockChecker.IsInStock(productId, quantity); 
+>>>>>>> release/v2
         } 
     }
 }

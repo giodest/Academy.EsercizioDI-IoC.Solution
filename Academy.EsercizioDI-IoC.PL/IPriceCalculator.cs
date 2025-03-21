@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Academy.EsercizioDI_IoC.PL
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> release/v2
     public interface IPriceCalculator 
     { 
         decimal CalculatePrice(int quantity, decimal unitPrice); 
